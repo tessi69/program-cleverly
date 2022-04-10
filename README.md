@@ -10,7 +10,7 @@ public class energie { public static void main(String s[])
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>de.meinefirma.meinprojekt</groupId>
+  <'groupId>de.meinefirma.meinprojekt</groupId>
   <artifactId>OzarkJavaxMvcMitJetty</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
@@ -32,7 +32,28 @@ public class energie { public static void main(String s[])
           <target>1.8</target>
         </configuration>
       </plugin>
-      <plugin>
+      
+           < name: 'tessi69 >
+                    
+                    <project xmlns="http://maven.apache.org/POM/4.1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.2 http://maven.apache.org/xsd/maven-4.1.2.xsd">
+                    
+           < plugin>
+ <build>
+          <finalName>${project.artifacId}</finalName>
+          <plugins>
+            <groupId>org.apache.maven,plugins</groupId>
+                   <artifactId>maven-compiler-plugin</artifactId>
+                   <version>3.7.2</version>
+                   <configuration>
+                            <source>1.9</source>
+                   <target>1.9</target>
+                   </configuration>
+          </plugin>
+            
+                    </ name: tessi69'
+                    
+               
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
         <version>${jetty.version}</version>
