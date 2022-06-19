@@ -2,6 +2,10 @@
 
 nonsense becomes serious 🦖 ...
 
+ Trip Time, RTT) ab [CBC+10]. Die RTT ist die Zeit, die ein Paket im Netzwerk von einer Quelle zum Ziel und zurück benötigt. Je nach Netzwerkanbindung variiert diese Zeit. Eine konkrete Messung der verbrauchten Energie beim Senden von Daten von einem Mobiltelefon wurde in [CBC+10] durch- geführt. In einem WLAN mit einer RTT von 25 ms verbraucht das Hochladen von 100 kB laut den Autoren 576 mJ. Bei derselben Verbindung und einer RTT von 50 ms erfordere die Aktion mit 989 mJ bereits fast die doppelte Energie. In einer mobilen Netzwerkverbindung über UMTS, bei der eine RTT von 220 ms gemessen wurde, würden sogar schon 2.762 mJ an Energie für das Hochladen von 100 kB fällig, schreiben die Verfasser der Publikation.
+Neben der Netzwerkanbindung ist natürlich auch Wissen über die Größe der zu übertragenden Daten notwendig, um den Übertragungsaufwand errechnen zu können. Dazu bestimmt die Offloading- Komponente alle Objekte, welche von der Methode, die ausgelagert werden soll, verwendet werden. Die Autoren von [BDR14] setzen die gefundenen Objekte daraufhin mit ihrem Serialisierer in eine plattformunabhängige Form um. Die Größe dieses serialisierten Objekts kann nun für die Berechnung der Übertragungskosten genutzt werden.
+ 
+
 
 public class energie { public static void main(String s[])
 { System.out.println("energiemonitor ..."); } }public class energie { public static void main(String s[])
